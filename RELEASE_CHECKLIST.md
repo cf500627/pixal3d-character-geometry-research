@@ -7,14 +7,14 @@ copied from existing reports with filename/section citations; packaging replay
 checks do not create new scientific conclusions.
 
 Public repository:
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research).
 The owner-authorized package is published. Remote inventory, source bytes and
 anonymous public access have been verified.
 
 | Requested item | Status | Evidence and exact scope |
 | --- | --- | --- |
 | Approved project MIT and copyright | PASS | Root LICENSE uses MIT and the exact approved contributors attribution. |
-| Approved anonymous names and repository name | PASS | Char-A / Char-B / Char-C only; stylized-character-geometry-research is the approved public repository name. |
+| Approved anonymous names and repository name | PASS | Char-A / Char-B / Char-C only; pixal3d-character-geometry-research is the approved public repository name. |
 | Approved upstream public copyright-contact exception | PASS | Necessary, license-verified source and original notices retained. Email permission is limited to verified original upstream copyright statements. |
 | Priorities 1, 2 and 5 | PASS | AMD inference source subset, sourced accuracy evidence, post-processing report, compact findings and open questions are present. |
 | Original workspaces preserved | PASS | Original code/assets/reports are read only; preparation and build/replay writes go to isolated new directories. |

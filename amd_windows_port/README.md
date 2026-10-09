@@ -2,7 +2,7 @@
 
 **PUBLICATION = OWNER_AUTHORIZED.** The owner authorized public repository
 creation and push of the reviewed package to
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research).
 Remote publication verification is recorded separately after completion.
 
 This directory contains selected inference-only compatibility changes and their existing validation record. It is not a trained model, a complete image-to-character product, a VAE training port, or an official Windows support commitment.

@@ -1,8 +1,11 @@
-# Stylized character geometry research — research source release
+# Pixal3D Character Geometry and Windows AMD Inference Research
 
-Existing Windows AMD inference compatibility work, geometry evaluation code,
-V2 representation readers, and anonymized research findings. This is a research
-record and tool collection, not a character-generation product. It contains
+Existing research on character geometry representations, pretrained VAE
+reconstruction losses, official post-processing, and Windows AMD inference
+compatibility. This source release includes geometry evaluation tools, V2
+representation readers, selected inference compatibility changes, and
+anonymized findings. This is a research record and tool collection, not a
+character-generation product. It contains
 no fine-tuned model, model weights, training set, or commercial character data.
 Release preparation performs no training or new research experiment.
 
@@ -18,7 +21,7 @@ approval does not establish an installation result. See [USER_DECISIONS.md](USER
 See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for actual verification scope.
 
 Public repository:
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research).
 The reviewed package is publicly available. The remote file inventory,
 source bytes and anonymous public access have been verified.
 

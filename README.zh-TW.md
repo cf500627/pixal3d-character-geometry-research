@@ -1,7 +1,8 @@
-# 風格化人物幾何研究：研究原始碼發布
+# Pixal3D 人物幾何與 Windows AMD 推論研究
 
-本目錄整理既有 Windows AMD 推論相容工作、幾何評估工具、V2 表示讀取器與
-匿名化研究報告。這是研究紀錄與工具，尚未完成可用的人物生成產品；沒有
+本目錄整理既有人物幾何表示、預訓練 VAE 重建損失診斷、官方後處理與
+Windows AMD 推論相容研究，發布幾何評估工具、V2 表示讀取器、部分推論
+相容修改與匿名化研究報告。這是研究紀錄與工具，尚未完成可用的人物生成產品；沒有
 微調模型、模型權重、訓練集或商業角色資料。本次沒有訓練或新增研究實驗。
 
 **RELEASE_STATUS = RESEARCH_SOURCE_RELEASE；PUBLICATION = PUBLISHED。**
@@ -14,7 +15,7 @@ AMD 依賴的完整乾淨安裝維持 **NOT_VERIFIED**；授權批准不能取�
 實際驗證範圍見 [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)。
 
 公開倉庫：
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research)。
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research)。
 原始碼包已公開發布；遠端檔案清單、逐檔內容與匿名公開讀取已核對。
 
 ## 五條既有發現

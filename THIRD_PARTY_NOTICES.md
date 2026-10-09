@@ -4,7 +4,7 @@ This is a research source release with **PUBLICATION = PUBLISHED**.
 The user has authorized public repository creation and push of the reviewed
 package. Remote inventory, source bytes and anonymous access have been verified.
 The public repository is
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research).
 The user has approved the
 root MIT license for project-authored code and documentation, retaining the
 contributors attribution. The root license does not replace upstream licenses

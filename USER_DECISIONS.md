@@ -7,7 +7,7 @@ creation of the public repository and push of the reviewed package.
 bytes and anonymous public access have been verified.
 
 Public repository:
-[stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
+[pixal3d-character-geometry-research](https://github.com/cf500627/pixal3d-character-geometry-research).
 
 | Decision | Status | Applied choice |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Public repository:
 | Project copyright holder | PASS | `Pixal3D Character Geometry Research contributors`. The root LICENSE retains this exact name. |
 | Public upstream copyright-contact exception | PASS | Original public author emails may remain in third-party LICENSE, NOTICE and copyright statements. Only necessary code with confirmed redistribution terms is included. This exception never permits the owner's private information, accounts, SSH records or credentials. |
 | Research-input names | PASS | Char-A / Char-B / Char-C only. No real-name mapping is distributed. The measurements concern three commercial stylized character models absent from this release. |
-| Repository name | PASS | `stylized-character-geometry-research`, the approved public repository name. |
+| Public title and repository name | PASS | The owner corrected the scope to character geometry and Windows AMD inference research, and approved `pixal3d-character-geometry-research`. The copyright holder remains unchanged. |
 | Public source publication | PASS | The owner-authorized source package is published. Remote inventory, source bytes and anonymous public access have been verified. |
 | Upstream issue submission and separate public posts | NOT_AUTHORIZED | The two issue drafts remain unsubmitted files in the source package. This publication request does not authorize upstream issue submission or separate public posts. |
 | Scientific visual acceptance | PENDING_USER | `USER_VISUAL_ACCEPTANCE = PENDING`. Packaging and numerical replay checks provide no visual score or usable-character claim. |
