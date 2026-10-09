@@ -1,0 +1,23 @@
+{
+  "title": "Synthetic sphere comparison template",
+  "image_width": 2048,
+  "modes": ["Clay", "TrueNormal", "AO"],
+  "columns": [
+    {
+      "label": "Synthetic SOURCE",
+      "images": {
+        "Clay": "synthetic_source_clay.png",
+        "TrueNormal": "synthetic_source_normal.png",
+        "AO": "synthetic_source_ao.png"
+      }
+    },
+    {
+      "label": "Synthetic inference result",
+      "images": {
+        "Clay": "synthetic_candidate_clay.png",
+        "TrueNormal": "synthetic_candidate_normal.png",
+        "AO": "synthetic_candidate_ao.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+--- a/pixal3d/models/sc_vaes/fdg_vae.py
++++ b/pixal3d/models/sc_vaes/fdg_vae.py
+@@ -16,8 +16,6 @@
+     SparseUnetVaeEncoder,
+     SparseUnetVaeDecoder,
+ )
+-from ...representations import Mesh
+-from o_voxel.convert import flexible_dual_grid_to_mesh
+ 
+ 
+ class FlexiDualGridVaeEncoder(SparseUnetVaeEncoder):
+@@ -81,6 +79,10 @@
+         self.resolution = resolution
+         
+     def forward(self, x: sp.SparseTensor, gt_intersected: sp.SparseTensor = None, **kwargs):
++        # Mesh extraction belongs to the decoder, not the encoder import path.
++        from ...representations import Mesh
++        from o_voxel.convert import flexible_dual_grid_to_mesh
++
+         decoded = super().forward(x, **kwargs)
+         if self.training:
+             h, subs_gt, subs = decoded
+--- a/pixal3d/modules/sparse/config.py
++++ b/pixal3d/modules/sparse/config.py
+@@ -17,7 +17,7 @@
+     if env_sparse_attn_backend is None:
+         env_sparse_attn_backend = os.environ.get('ATTN_BACKEND')
+ 
+-    if env_sparse_conv_backend is not None and env_sparse_conv_backend in ['none', 'spconv', 'torchsparse', 'flex_gemm']:
++    if env_sparse_conv_backend is not None and env_sparse_conv_backend in ['none', 'spconv', 'torchsparse', 'flex_gemm', 'torch_native']:
+         CONV = env_sparse_conv_backend
+     if env_sparse_debug is not None:
+         DEBUG = env_sparse_debug == '1'
+@@ -30,7 +30,7 @@
+ __from_env()
+     
+ 
+-def set_conv_backend(backend: Literal['none', 'spconv', 'torchsparse', 'flex_gemm']):
++def set_conv_backend(backend: Literal['none', 'spconv', 'torchsparse', 'flex_gemm', 'torch_native']):
+     global CONV
+     CONV = backend
+ 

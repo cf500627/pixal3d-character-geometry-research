@@ -1,0 +1,14 @@
+{
+  "pixal3d_repo": "../../upstream/Pixal3D",
+  "trellis2_repo": "../../upstream/TRELLIS.2",
+  "hip_hash_extension_dir": "./hip_hash/build/lib",
+  "official_model_dir": "../../models/TRELLIS.2-4B",
+  "input_voxel_file": "../examples/sphere/target.vxz",
+  "output_dir": "../../run-output/sphere",
+  "resolution": 1024,
+  "sample_posterior": false,
+  "precision": "official_fp16",
+  "attention_backend": "sdpa",
+  "sparse_conv_backend": "torch_native",
+  "optimizer_updates": 0
+}

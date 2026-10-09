@@ -1,0 +1,37 @@
+{
+  "status": "PASS_FOR_INCLUDED_PATCHES_AND_FRESH_SOURCE_REPLAY",
+  "checks": [
+    {
+      "patch": "Pixal3D_inference_imports_and_backend.patch",
+      "git_apply_check": true,
+      "exit_code": 0
+    },
+    {
+      "patch": "TRELLIS2_hash_hipify.patch",
+      "git_apply_check": true,
+      "exit_code": 0
+    }
+  ],
+  "applied_content_matches_existing_inference_changes": true,
+  "python_sources_parse": true,
+  "GPU_runs": 0,
+  "optimizer_updates": 0,
+  "full_installation_status": "NOT_VERIFIED",
+  "reason": "Patch, overlay, released version-header generation, newly compiled extension and isolated sphere replay passed in a new pinned source copy using existing runtime dependencies. Complete fresh dependency installation remains unverified.",
+  "fresh_source_build_verification": {
+    "record": "../examples/validation/REPLAY_VERIFICATION.json",
+    "pinned_pristine_source_and_patch": "PASS",
+    "included_convolution_overlay": "PASS",
+    "included_API_and_HIP_extension_fresh_compilation": "PASS",
+    "released_version_header_generation": "PASS",
+    "isolated_rebuilt_extension_sphere_replay": "PASS",
+    "latent_and_decoded_arrays_exact": true,
+    "mesh_byte_equal_to_previously_ray_measured_synthetic_replay": true,
+    "actual_worker_exit_code": 0,
+    "normal_cleanup": "PASS",
+    "original_input_metadata_unchanged": true,
+    "scope": "New pinned source copy, included patch/overlay and newly compiled extension; existing installed Torch/HIP, O-Voxel I/O and official weights reused"
+  },
+  "GPU_runs_scope": "This patch-application checker performed no GPU execution; independently observed replay flags are linked above.",
+  "new_research_conclusions": false
+}

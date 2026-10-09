@@ -1,0 +1,62 @@
+{
+  "schema": "SYNTHETIC_CPU_REFERENCE_REPLAY_V1",
+  "source_mesh": "sphere_source.ply",
+  "camera": {
+    "camera_matrix_world": [
+      [
+        1.0,
+        1.4706481366033586e-08,
+        -2.6928086427346898e-09,
+        0.0260788407176733
+      ],
+      [
+        -1.4950980897765476e-08,
+        0.9836465716362,
+        -0.1801091730594635,
+        -0.5313061475753784
+      ],
+      [
+        -9.068865452385553e-17,
+        0.1801091581583023,
+        0.9836466312408447,
+        2.901568651199341
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "ortho_scale": 1.1433819683767918,
+    "resolution": [
+      2048,
+      2048
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      2048,
+      2048
+    ]
+  },
+  "metrics": {
+    "h_world": 0.0009765625,
+    "T_normal_degrees": 15.17005233274145,
+    "T_depth_world": 0.00010808482590720644,
+    "depth_thresholds_h": [
+      0.11,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "historical_reference": {
+    "source": "STAGE10A_VAE_LOSS_DIAGNOSIS_RESULT.md, A1 synthetic closed mesh control",
+    "vertices": 2562,
+    "faces": 5120,
+    "source_visible_pixels": 629228
+  },
+  "fixture_origin": "Procedurally constructed subdivided icosahedron; no commercial model data",
+  "stratification": "ALL only: this synthetic fixture has no inherited capacity audit; NONE/CONFLICT are not fabricated"
+}
