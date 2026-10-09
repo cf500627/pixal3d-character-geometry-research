@@ -4,7 +4,7 @@
 匿名化研究報告。這是研究紀錄與工具，尚未完成可用的人物生成產品；沒有
 微調模型、模型權重、訓練集或商業角色資料。本次沒有訓練或新增研究實驗。
 
-**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE；PUBLICATION = OWNER_AUTHORIZED。**
+**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE；PUBLICATION = PUBLISHED。**
 使用者已授權建立公開倉庫並推送這份已審閱的原始碼包。
 使用者已批准自寫程式與文件採 MIT，
 版權名稱為 **Pixal3D Character Geometry Research contributors**。必要的第三方
@@ -13,9 +13,9 @@ AMD 依賴的完整乾淨安裝維持 **NOT_VERIFIED**；授權批准不能取�
 決定記錄見 [USER_DECISIONS.md](USER_DECISIONS.md)。
 實際驗證範圍見 [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)。
 
-公開倉庫目的地：
+公開倉庫：
 [stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research)。
-已授權建立倉庫及推送；完成後另行記錄遠端發布驗證結果。
+原始碼包已公開發布；遠端檔案清單、逐檔內容與匿名公開讀取已核對。
 
 ## 五條既有發現
 
@@ -105,5 +105,5 @@ NOTICE 與版權聲明；必要聲明內的公開作者 email 可保留。
 
 致謝 Pixal3D、TRELLIS.2、Direct3D-S2、NumPy、PyTorch 與 AMD ROCm/HIP。
 Direct3D-S2 僅有現存 Pixal3D NOTICE 的 attribution，未打包其程式碼。
-這份已審閱的原始碼包已獲准建立公開倉庫及推送。兩份 upstream issue 草稿
+這份已審閱的原始碼包已公開發布。兩份 upstream issue 草稿
 仍未提交；本次發布請求沒有授權另發公開貼文。

@@ -1,15 +1,15 @@
 # Research source release checklist
 
-**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE; PUBLICATION = OWNER_AUTHORIZED.**
+**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE; PUBLICATION = PUBLISHED.**
 The five owner decisions in USER_DECISIONS.md are applied. This is a research
 source release, not a usable character generator. Scientific numbers are
 copied from existing reports with filename/section citations; packaging replay
 checks do not create new scientific conclusions.
 
-Public repository destination:
+Public repository:
 [stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
-Creation and push are owner-authorized; remote publication verification is
-recorded separately after completion.
+The owner-authorized package is published. Remote inventory, source bytes and
+anonymous public access have been verified.
 
 | Requested item | Status | Evidence and exact scope |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ recorded separately after completion.
 | Priorities 1, 2 and 5 | PASS | AMD inference source subset, sourced accuracy evidence, post-processing report, compact findings and open questions are present. |
 | Original workspaces preserved | PASS | Original code/assets/reports are read only; preparation and build/replay writes go to isolated new directories. |
 | No training, cloud or new research experiment | PASS | Synthetic packaging validation only; optimizer updates and checkpoint writes remain zero. |
-| Public repository creation and push authorization | OWNER_AUTHORIZED | The owner authorized publication of the reviewed source package. Remote creation and push verification are recorded separately; issue drafts remain unsubmitted and no separate public post is authorized. |
+| Public repository creation and push | PASS | The owner-authorized package is published in the public repository; remote inventory, source bytes and anonymous access verified. Issue drafts remain unsubmitted. |
 | AMD patches against pinned upstream baselines | PASS | Included patches passed clean apply/check and reproduce the selected source changes. |
 | Actual runtime versions and inference limits | PASS | Forward-only torch_native, no VAE training, no complete AMD official to_glb; observed historical versions are distinguished from support claims. |
 | Historical R1 accuracy and ray evidence | PASS | Anonymous sourced aggregate tables in amd_windows_port/VALIDATION.md and reports/FINDINGS.md. |
@@ -41,7 +41,7 @@ recorded separately after completion.
 | Per-file provenance and license mapping | PASS | Final FILE_PROVENANCE.csv covers every shipped file including itself; original attribution and approved project MIT are mapped separately. |
 | Original licenses and attribution retained | PASS | Actual original Tencent/Microsoft/FlexGEMM/O-Voxel statements retained without removing required copyright contact details. |
 | Unknown-license material excluded | PASS | No unclear native QEF/header archive, Direct3D-S2 code, CuMesh, nvdiffrast or complete FlexGEMM runtime is bundled. |
-| Owner review / public source publication | OWNER_AUTHORIZED | The owner reviewed the package and authorized public repository creation and push. Authorization does not establish remote publication completion. |
+| Owner review / public source publication | PASS | Owner-authorized publication completed and verified; private validation artifacts and original workspaces are excluded. |
 | Final scientific visual acceptance | PENDING_USER | USER_VISUAL_ACCEPTANCE = PENDING; no automatic score, winner or product-quality claim. |
 
 PASS applies only to the row's exact scope. FAIL identifies a gate not achieved

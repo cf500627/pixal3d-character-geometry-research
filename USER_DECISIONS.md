@@ -3,10 +3,10 @@
 The owner explicitly approved the following decisions on 2026-10-09. They are
 applied to this research source release. The owner has subsequently authorized
 creation of the public repository and push of the reviewed package.
-**PUBLICATION = OWNER_AUTHORIZED.** Remote publication verification is recorded
-separately after completion.
+**PUBLICATION = PUBLISHED.** The public repository's file inventory, source
+bytes and anonymous public access have been verified.
 
-Public repository destination:
+Public repository:
 [stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
 
 | Decision | Status | Applied choice |
@@ -16,7 +16,7 @@ Public repository destination:
 | Public upstream copyright-contact exception | PASS | Original public author emails may remain in third-party LICENSE, NOTICE and copyright statements. Only necessary code with confirmed redistribution terms is included. This exception never permits the owner's private information, accounts, SSH records or credentials. |
 | Research-input names | PASS | Char-A / Char-B / Char-C only. No real-name mapping is distributed. The measurements concern three commercial stylized character models absent from this release. |
 | Repository name | PASS | `stylized-character-geometry-research`, the approved public repository name. |
-| Public source publication | OWNER_AUTHORIZED | The owner authorized creation of the public repository and push of the reviewed source package. Remote completion is verified separately. |
+| Public source publication | PASS | The owner-authorized source package is published. Remote inventory, source bytes and anonymous public access have been verified. |
 | Upstream issue submission and separate public posts | NOT_AUTHORIZED | The two issue drafts remain unsubmitted files in the source package. This publication request does not authorize upstream issue submission or separate public posts. |
 | Scientific visual acceptance | PENDING_USER | `USER_VISUAL_ACCEPTANCE = PENDING`. Packaging and numerical replay checks provide no visual score or usable-character claim. |
 

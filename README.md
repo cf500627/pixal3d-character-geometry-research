@@ -6,7 +6,7 @@ record and tool collection, not a character-generation product. It contains
 no fine-tuned model, model weights, training set, or commercial character data.
 Release preparation performs no training or new research experiment.
 
-**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE; PUBLICATION = OWNER_AUTHORIZED.**
+**RELEASE_STATUS = RESEARCH_SOURCE_RELEASE; PUBLICATION = PUBLISHED.**
 The owner has authorized creation of the public repository and publication of
 this reviewed source package. The owner has approved MIT for
 project-authored code and documents, with copyright attribution to
@@ -17,10 +17,10 @@ Complete fresh AMD dependency installation remains **NOT_VERIFIED**: licensing
 approval does not establish an installation result. See [USER_DECISIONS.md](USER_DECISIONS.md).
 See [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) for actual verification scope.
 
-Public repository destination:
+Public repository:
 [stylized-character-geometry-research](https://github.com/cf500627/stylized-character-geometry-research).
-Repository creation and push are authorized; remote publication verification
-is recorded separately after completion.
+The reviewed package is publicly available. The remote file inventory,
+source bytes and anonymous public access have been verified.
 
 ## Five existing findings
 
@@ -141,6 +141,6 @@ Acknowledgments: [Pixal3D](https://github.com/TencentARC/Pixal3D),
 AMD ROCm/HIP toolchain. Direct3D-S2 code is not vendored; its independent revision
 and license remain unresolved beyond the local Pixal3D NOTICE attribution.
 
-The reviewed source package is authorized for public repository creation and
-push. The two upstream issue drafts remain unsubmitted; no separate public
+The reviewed source package has been published. The two upstream issue drafts
+remain unsubmitted; no separate public
 post is authorized by this publication request.
